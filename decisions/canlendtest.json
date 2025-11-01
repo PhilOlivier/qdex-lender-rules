@@ -1,0 +1,16 @@
+{
+  "id": "canlendtest",
+  "title": "CanLend.Test",
+  "description": "Some new test decision",
+  "category": "credit",
+  "rules": [
+    {
+      "key": "Applicant[].CreditIssue.CCJAggregated.Count",
+      "expression": "=count(Applicant[].CreditIssue.CCJ[].Amount)",
+      "order": 1,
+      "metadata": {
+        "description": "Credit issue count - updated"
+      }
+    }
+  ]
+}
