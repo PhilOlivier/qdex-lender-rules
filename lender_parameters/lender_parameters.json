@@ -5279,6 +5279,21 @@
         "Root.Resi.Nationwide": null,
         "Root.Resi.Santander": null
       }
+    },
+    {
+      "key": "AddTestParameter",
+      "lenders": {
+        "Root": null,
+        "Root.Resi": null,
+        "Root.Test.PrivateBank": null,
+        "Root.Test.HighStreet": null,
+        "Root.Test.BuildingSociety": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
     }
   ],
   "lenders": [
