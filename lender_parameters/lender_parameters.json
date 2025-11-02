@@ -65,7 +65,7 @@
       "lenders": {
         "Root": false,
         "Root.Resi": false,
-        "Root.Resi.Accord": null,
+        "Root.Resi.Accord": "false",
         "Root.Resi.Barclays": null,
         "Root.Resi.HSBCBank": null,
         "Root.Test.PrivateBank": true,
