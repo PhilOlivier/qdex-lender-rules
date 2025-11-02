@@ -34,7 +34,7 @@
       "key": "Allows.CCJ",
       "lenders": {
         "Root": true,
-        "Root.Resi": null,
+        "Root.Resi": "false",
         "Root.Resi.Accord": "true",
         "Root.Resi.Barclays": "true",
         "Root.Resi.HSBCBank": null,
