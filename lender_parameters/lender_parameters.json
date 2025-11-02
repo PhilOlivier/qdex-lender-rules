@@ -5324,6 +5324,8 @@
     "Root.Resi.Santander"
   ],
   "test_lenders": [
+    "Root",
+    "Root.Resi",
     "Root.Test.PrivateBank",
     "Root.Test.HighStreet",
     "Root.Test.BuildingSociety"
