@@ -171,7 +171,7 @@
         "Root": false,
         "Root.Resi": false,
         "Root.Resi.Accord": "true",
-        "Root.Resi.Barclays": "asdf",
+        "Root.Resi.Barclays": "false",
         "Root.Resi.HSBCBank": null,
         "Root.Test.PrivateBank": false,
         "Root.Test.HighStreet": false,
