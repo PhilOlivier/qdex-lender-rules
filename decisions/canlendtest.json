@@ -1,7 +1,7 @@
 {
   "id": "canlendtest",
   "title": "CanLend.Test",
-  "description": "Some new test decision",
+  "description": "Some new test decision - updated",
   "category": "credit",
   "rules": [
     {
