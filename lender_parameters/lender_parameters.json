@@ -1,6 +1,21 @@
 {
   "parameters": [
     {
+      "key": "NewParam",
+      "lenders": {
+        "Root": "true",
+        "Root.Resi": null,
+        "Root.Test.PrivateBank": null,
+        "Root.Test.HighStreet": null,
+        "Root.Test.BuildingSociety": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
       "key": "BankName",
       "lenders": {
         "Root": "Root",
@@ -5684,6 +5699,7 @@
     "AcceptBenefitsNoEarnedIncome": "boolean",
     "AcceptRentalNoEarnedIncome": "boolean",
     "AddTestParameter": "string",
-    "": "string"
+    "": "string",
+    "NewParam": "string"
   }
 }
