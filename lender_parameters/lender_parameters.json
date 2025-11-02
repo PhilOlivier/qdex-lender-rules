@@ -1,1 +1,5301 @@
-
+{
+  "parameters": [
+    {
+      "key": "BankName",
+      "lenders": {
+        "Root": "Root",
+        "Root.Resi": "Root Resi",
+        "Root.Test.PrivateBank": "Test Private Bank",
+        "Root.Test.HighStreet": "Test High Street",
+        "Root.Test.BuildingSociety": "Test Building Society",
+        "Root.Resi.Accord": "Accord",
+        "Root.Resi.Barclays": "Barclays",
+        "Root.Resi.HSBCBank": "HSBC Bank",
+        "Root.Resi.Nationwide": "Nationwide",
+        "Root.Resi.Santander": "Santander"
+      }
+    },
+    {
+      "key": "CompNo",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": 3805,
+        "Root.Resi.Barclays": 30750,
+        "Root.Resi.HSBCBank": 15350,
+        "Root.Test.PrivateBank": null,
+        "Root.Test.HighStreet": null,
+        "Root.Test.BuildingSociety": null,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Allows.CCJ",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Allows.IVA",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Allows.LatePayment",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Allows.MissedPayment",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Allows.Default",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AllowsUnsatisfied.CCJ",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AllowsUnsatisfied.IVA",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AllowsUnsatisfied.LatePayment",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AllowsUnsatisfied.MissedPayment",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AllowsUnsatisfied.Default",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Max.NumberOf.CreditIssues",
+      "lenders": {
+        "Root": 10,
+        "Root.Resi": 10,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 10,
+        "Root.Test.HighStreet": 10,
+        "Root.Test.BuildingSociety": 10,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxSingleAmount.CCJ",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxSingleAmount.IVA",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxSingleAmount.LatePayment",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxSingleAmount.MissedPayment",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxSingleAmount.Default",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxCombinedAmount.CCJ",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxCombinedAmount.IVA",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxCombinedAmount.LatePayment",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxCombinedAmount.MissedPayment",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxCombinedAmount.Default",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Max.Combined.AmountAllIssues",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastRegistered.CCJ",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastRegistered.IVA",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastRegistered.LatePayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastRegistered.MissedPayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastRegistered.Default",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxNumberOf.LatePayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxNumberOf.MissedPayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxNumberOf.MissedAndLatePayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastSatisfied.CCJ",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastSatisfied.IVA",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastSatisfied.LatePayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastSatisfied.MissedPayment",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsSinceLastSatisfied.Default",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinAge.Application",
+      "lenders": {
+        "Root": 18,
+        "Root.Resi": 18,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 18,
+        "Root.Test.HighStreet": 18,
+        "Root.Test.BuildingSociety": 18,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Retirement",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.General",
+      "lenders": {
+        "Root": 65,
+        "Root.Resi": 75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 65,
+        "Root.Test.HighStreet": 65,
+        "Root.Test.BuildingSociety": 65,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.General",
+      "lenders": {
+        "Root": 75,
+        "Root.Resi": 80,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 75,
+        "Root.Test.HighStreet": 75,
+        "Root.Test.BuildingSociety": 75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.InterestOnly",
+      "lenders": {
+        "Root": 60,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 60,
+        "Root.Test.HighStreet": 60,
+        "Root.Test.BuildingSociety": 60,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.InterestOnly",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 80,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.Employed",
+      "lenders": {
+        "Root": 65,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 65,
+        "Root.Test.HighStreet": 65,
+        "Root.Test.BuildingSociety": 65,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.Employed",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.SelfEmployed",
+      "lenders": {
+        "Root": 65,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 65,
+        "Root.Test.HighStreet": 65,
+        "Root.Test.BuildingSociety": 65,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.SelfEmployed",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.SportsActive",
+      "lenders": {
+        "Root": 34,
+        "Root.Resi": 34,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 34,
+        "Root.Test.HighStreet": 34,
+        "Root.Test.BuildingSociety": 34,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.SportsActive",
+      "lenders": {
+        "Root": 40,
+        "Root.Resi": 40,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 40,
+        "Root.Test.HighStreet": 40,
+        "Root.Test.BuildingSociety": 40,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.JBSP.EldestBorrower",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.JBSP.EldestBorrower",
+      "lenders": {
+        "Root": 75,
+        "Root.Resi": 80,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 75,
+        "Root.Test.HighStreet": 75,
+        "Root.Test.BuildingSociety": 75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.JBSP.SplitTerm.YoungerBorrower",
+      "lenders": {
+        "Root": 65,
+        "Root.Resi": 65,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 65,
+        "Root.Test.HighStreet": 65,
+        "Root.Test.BuildingSociety": 65,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.JBSP.SplitTerm.YoungerBorrower",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Application.Retirement.Income",
+      "lenders": {
+        "Root": 70,
+        "Root.Resi": 70,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 70,
+        "Root.Test.HighStreet": 70,
+        "Root.Test.BuildingSociety": 70,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxAge.Maturity.Retirement.Income",
+      "lenders": {
+        "Root": 80,
+        "Root.Resi": 80,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 80,
+        "Root.Test.HighStreet": 80,
+        "Root.Test.BuildingSociety": 80,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "HighestTermAppliesIfMultipleMet",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LendingIntoRetirement",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AllApplicantsMustBeUKResident",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "OneApplicantMustBeUKResident",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NoApplicantIsRequiredToBeUKResident",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthsUKResidencyNeeded",
+      "lenders": {
+        "Root": 0,
+        "Root.Resi": 0,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0,
+        "Root.Test.HighStreet": 0,
+        "Root.Test.BuildingSociety": 0,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SettledStatusRequired",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PreSettledStatusAcceptable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TierOneVisaAccepted",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TierTwoVisaAccepted",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TierOneMonthsRemaining",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TierTwoMonthsRemaining",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "ExpatMortgage",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxNumberOfApplicants",
+      "lenders": {
+        "Root": 2,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 2,
+        "Root.Test.HighStreet": 2,
+        "Root.Test.BuildingSociety": 2,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MarriedApplicantSoleApplication",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NonEarningApplicant",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "JointApplicationSoleMarriedApplicant",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AtLeastOneWillnotOccupy",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AtLeastOneWillnotOccupyUnlessJBSP",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "JBSPAllowed",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "JBSPMinApplicants",
+      "lenders": {
+        "Root": 0,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0,
+        "Root.Test.HighStreet": 0,
+        "Root.Test.BuildingSociety": 0,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxNumberOfEarningApplicants",
+      "lenders": {
+        "Root": 2,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 2,
+        "Root.Test.HighStreet": 2,
+        "Root.Test.BuildingSociety": 2,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "HighestEarningApplicants",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NoApplicantWillOccupy",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "HomeForDependentRelativeLTV",
+      "lenders": {
+        "Root": 0,
+        "Root.Resi": 0,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0,
+        "Root.Test.HighStreet": 0,
+        "Root.Test.BuildingSociety": 0,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "OneApplicantNonResidentNonJBSP",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SecondResidentialBackground",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SecondResidentialAllowed",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SecondHomeMaxLTV",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SecondCanBeCurrent",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaximumNumberOfPropertiesOwned",
+      "lenders": {
+        "Root": 100,
+        "Root.Resi": 100,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100,
+        "Root.Test.HighStreet": 100,
+        "Root.Test.BuildingSociety": 100,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaximumAggregateDebt",
+      "lenders": {
+        "Root": 10000000,
+        "Root.Resi": 10000000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 10000000,
+        "Root.Test.HighStreet": 10000000,
+        "Root.Test.BuildingSociety": 10000000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DepositGift",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DepositGitfNonUK",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DepositGiftNonFamily",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DepositGiftNonUKNonFamily",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DepositLoan",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Remortgage6MonthsOrLessCash",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Remortgage6MonthsOrLessLoan",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Remortgage6MonthsOrLessBridge",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Remortgage6MonthsOrLessInherited",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LoanAmountMaxDebtcon",
+      "lenders": {
+        "Root": 50000,
+        "Root.Resi": 50000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 50000,
+        "Root.Test.HighStreet": 50000,
+        "Root.Test.BuildingSociety": 50000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LoanAmountMin",
+      "lenders": {
+        "Root": 50000,
+        "Root.Resi": 50000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 50000,
+        "Root.Test.HighStreet": 50000,
+        "Root.Test.BuildingSociety": 50000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxPartAndPart",
+      "lenders": {
+        "Root": 0.85,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.85,
+        "Root.Test.HighStreet": 0.85,
+        "Root.Test.BuildingSociety": 0.85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxPartAndPartElement",
+      "lenders": {
+        "Root": 0.85,
+        "Root.Resi": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.85,
+        "Root.Test.HighStreet": 0.85,
+        "Root.Test.BuildingSociety": 0.85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.OverrideLegal",
+      "lenders": {
+        "Root": 0.85,
+        "Root.Resi": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.85,
+        "Root.Test.HighStreet": 0.85,
+        "Root.Test.BuildingSociety": 0.85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.OverrideMedical",
+      "lenders": {
+        "Root": 0.85,
+        "Root.Resi": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.85,
+        "Root.Test.HighStreet": 0.85,
+        "Root.Test.BuildingSociety": 0.85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.OverridePrivateEquity",
+      "lenders": {
+        "Root": 0.85,
+        "Root.Resi": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.85,
+        "Root.Test.HighStreet": 0.85,
+        "Root.Test.BuildingSociety": 0.85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxSecondHome",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxExpat",
+      "lenders": {
+        "Root": 0.85,
+        "Root.Resi": null,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.85,
+        "Root.Test.HighStreet": 0.85,
+        "Root.Test.BuildingSociety": 0.85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxOneNonILRNonIncome",
+      "lenders": {
+        "Root": 0.95,
+        "Root.Resi": 0.95,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.95,
+        "Root.Test.HighStreet": 0.95,
+        "Root.Test.BuildingSociety": 0.95,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxOneNonILRIncomeEarning",
+      "lenders": {
+        "Root": 0.95,
+        "Root.Resi": 0.95,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.95,
+        "Root.Test.HighStreet": 0.95,
+        "Root.Test.BuildingSociety": 0.95,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxAllApplicantsNonILR",
+      "lenders": {
+        "Root": 0.9,
+        "Root.Resi": 0.9,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.9,
+        "Root.Test.HighStreet": 0.9,
+        "Root.Test.BuildingSociety": 0.9,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxPreSettledSoleApplicantJointApplication",
+      "lenders": {
+        "Root": 0.95,
+        "Root.Resi": 0.95,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.95,
+        "Root.Test.HighStreet": 0.95,
+        "Root.Test.BuildingSociety": 0.95,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LTV.MaxAllApplicantsPreSettled",
+      "lenders": {
+        "Root": 0.95,
+        "Root.Resi": 0.95,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.95,
+        "Root.Test.HighStreet": 0.95,
+        "Root.Test.BuildingSociety": 0.95,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AmortisationMethod.CapitalRepayment",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AmortisationMethod.PartAndPart",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AmortisationMethod.InterestOnlyPure",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SaleOfTheMortgagedProperty",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SaleOfAnotherProperty",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.StocksAndShares",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.Savings",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.AdhocCapital",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.Endowment",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.Pension",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SaleOfTheMortgagedPropertyStackable",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SaleOfAnotherPropertyStackable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.StocksAndSharesStackable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SavingsStackable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.AdhocCapitalStackable",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.EndowmentStackable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.PensionStackable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SaleOfTheMortgagedPropertyMaxPercent",
+      "lenders": {
+        "Root": 0.5,
+        "Root.Resi": 0.5,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.5,
+        "Root.Test.HighStreet": 0.5,
+        "Root.Test.BuildingSociety": 0.5,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SaleOfAnotherPropertyMaxPercent",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.StocksAndSharesMaxPercent",
+      "lenders": {
+        "Root": 0.8,
+        "Root.Resi": 0.8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.8,
+        "Root.Test.HighStreet": 0.8,
+        "Root.Test.BuildingSociety": 0.8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.SavingsMaxPercent",
+      "lenders": {
+        "Root": 0.8,
+        "Root.Resi": 0.8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.8,
+        "Root.Test.HighStreet": 0.8,
+        "Root.Test.BuildingSociety": 0.8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.EndowmentMaxPercent",
+      "lenders": {
+        "Root": 0.1,
+        "Root.Resi": 0.1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.1,
+        "Root.Test.HighStreet": 0.1,
+        "Root.Test.BuildingSociety": 0.1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RepaymentVehicle.InterestOnly.PensionMaxPercent",
+      "lenders": {
+        "Root": 0.8,
+        "Root.Resi": 0.8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.8,
+        "Root.Test.HighStreet": 0.8,
+        "Root.Test.BuildingSociety": 0.8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaximumTerm",
+      "lenders": {
+        "Root": 40,
+        "Root.Resi": 40,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 40,
+        "Root.Test.HighStreet": 40,
+        "Root.Test.BuildingSociety": 40,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinimumTerm",
+      "lenders": {
+        "Root": 5,
+        "Root.Resi": 5,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 5,
+        "Root.Test.HighStreet": 5,
+        "Root.Test.BuildingSociety": 5,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaximumTermInterestOnly",
+      "lenders": {
+        "Root": 25,
+        "Root.Resi": 25,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 25,
+        "Root.Test.HighStreet": 25,
+        "Root.Test.BuildingSociety": 25,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaximumDebtConTerm",
+      "lenders": {
+        "Root": 25,
+        "Root.Resi": 25,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 25,
+        "Root.Test.HighStreet": 25,
+        "Root.Test.BuildingSociety": 25,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaximumTermLendingIntoRetirement",
+      "lenders": {
+        "Root": 10,
+        "Root.Resi": 10,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 10,
+        "Root.Test.HighStreet": 10,
+        "Root.Test.BuildingSociety": 10,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "ListedBuildingsGrade1",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "ListedBuildingsGrade2",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxKitchensNonLondon",
+      "lenders": {
+        "Root": 2,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 2,
+        "Root.Test.HighStreet": 2,
+        "Root.Test.BuildingSociety": 2,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxKitchensLondon",
+      "lenders": {
+        "Root": 2,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 2,
+        "Root.Test.HighStreet": 2,
+        "Root.Test.BuildingSociety": 2,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AboveCommercialFoodPremises",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AboveCommercialHairdressers",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AboveCommercialLaundrette",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AboveCommercialOffices",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AboveCommercialShops",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AboveCommercialOther",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxNumberOfAcerage",
+      "lenders": {
+        "Root": 10,
+        "Root.Resi": 10,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 10,
+        "Root.Test.HighStreet": 10,
+        "Root.Test.BuildingSociety": 10,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxStoreysBuildingGeneral",
+      "lenders": {
+        "Root": 8,
+        "Root.Resi": 8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 8,
+        "Root.Test.HighStreet": 8,
+        "Root.Test.BuildingSociety": 8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxStoreysBuildingWithoutLift",
+      "lenders": {
+        "Root": 4,
+        "Root.Resi": 4,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 4,
+        "Root.Test.HighStreet": 4,
+        "Root.Test.BuildingSociety": 4,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxFloorCanBeOn",
+      "lenders": {
+        "Root": 8,
+        "Root.Resi": 8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 8,
+        "Root.Test.HighStreet": 8,
+        "Root.Test.BuildingSociety": 8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LendWithOutEWS1",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LendWithOutEWS1WithManagementLetter",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinLeaseTermApplication",
+      "lenders": {
+        "Root": 85,
+        "Root.Resi": 85,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 85,
+        "Root.Test.HighStreet": 85,
+        "Root.Test.BuildingSociety": 85,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinLeaseTermMaturity",
+      "lenders": {
+        "Root": 50,
+        "Root.Resi": 50,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 50,
+        "Root.Test.HighStreet": 50,
+        "Root.Test.BuildingSociety": 50,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LeaseholdHouse",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "FlyingFreehold",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LendExLocalFlat",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxStoreyFlatsExLocalNonLondon",
+      "lenders": {
+        "Root": 6,
+        "Root.Resi": 6,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 6,
+        "Root.Test.HighStreet": 6,
+        "Root.Test.BuildingSociety": 6,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxFloorFlatsExLocalNonLondon",
+      "lenders": {
+        "Root": 6,
+        "Root.Resi": 6,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 6,
+        "Root.Test.HighStreet": 6,
+        "Root.Test.BuildingSociety": 6,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxStoreyFlatsExLocalLondon",
+      "lenders": {
+        "Root": 8,
+        "Root.Resi": 8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 8,
+        "Root.Test.HighStreet": 8,
+        "Root.Test.BuildingSociety": 8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxFloorFlatsExLocalLondon",
+      "lenders": {
+        "Root": 8,
+        "Root.Resi": 8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 8,
+        "Root.Test.HighStreet": 8,
+        "Root.Test.BuildingSociety": 8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TypeConstructionConcrete",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TypeConstructionTimberFramed",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TypeConstructionSteelFramed",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "FlatStudioAccepted",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinStudioSquareM",
+      "lenders": {
+        "Root": 0,
+        "Root.Resi": 0,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0,
+        "Root.Test.HighStreet": 0,
+        "Root.Test.BuildingSociety": 0,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinPropertyValue",
+      "lenders": {
+        "Root": 75000,
+        "Root.Resi": 75000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 75000,
+        "Root.Test.HighStreet": 75000,
+        "Root.Test.BuildingSociety": 75000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxPropertyValue",
+      "lenders": {
+        "Root": 20000000,
+        "Root.Resi": 20000000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 20000000,
+        "Root.Test.HighStreet": 20000000,
+        "Root.Test.BuildingSociety": 20000000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "EPCMaxGradeGeneral",
+      "lenders": {
+        "Root": "E",
+        "Root.Resi": "E",
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": "E",
+        "Root.Test.HighStreet": "E",
+        "Root.Test.BuildingSociety": "E",
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PropertyCountryEngland",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PropertyCountryScotland",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PropertyCountryNorthernIreland",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PropertyCountryWales",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PropertyOutBuildingAccepted",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PropertyOutBuildingTenantedAccepted",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxMonthsConsideredNewBuild",
+      "lenders": {
+        "Root": 24,
+        "Root.Resi": 24,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 24,
+        "Root.Test.HighStreet": 24,
+        "Root.Test.BuildingSociety": 24,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyAedis",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyBuildassure",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyBuildinglifeplans",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyBuildZone",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyCrlmanagement",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyCheckmate",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyGlobalHomeWarranties",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyIcw",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyLabc",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyNhbc",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyPgs",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyPcc",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyProtek",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyQassure",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyZurich",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NewBuildWarrantyRetrospectiveWarranty",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "GroundRentAndServiceCharge",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RentOnGoing",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "CouncilTax",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Gas",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Electricity",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Water",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PhoneAndBroadband",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Food",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "CarRunningCosts",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "TravelExpenses",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Housekeeping",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Clothing",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Toiletries",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Furniture",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "StreamingSubscriptions",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "OtherEntertainmentAndRecreation",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "LifeAndGenInsurance",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Fitness",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Holidays",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "Other",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "UseONSExpenditure",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxONSvsReal",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveSchoolFees500k",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveNannyFees500k",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveNurseryFees500k",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveSchoolFees1m",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveNannyFees1m",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveNurseryFees1m",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveSchoolFees10m",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveNannyFees10m",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RemoveNurseryFees10m",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "FixedTermContractorAcceptable",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "FixedTermContractorMinNumberMonthsActivity",
+      "lenders": {
+        "Root": 12,
+        "Root.Resi": 12,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 12,
+        "Root.Test.HighStreet": 12,
+        "Root.Test.BuildingSociety": 12,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DayRateContractorMinDailyRate",
+      "lenders": {
+        "Root": 250,
+        "Root.Resi": 250,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 250,
+        "Root.Test.HighStreet": 250,
+        "Root.Test.BuildingSociety": 250,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DayRateContractorWeekMultiplier",
+      "lenders": {
+        "Root": 46,
+        "Root.Resi": 46,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 46,
+        "Root.Test.HighStreet": 46,
+        "Root.Test.BuildingSociety": 46,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DayRateContractorMinNumberMonthsActivity",
+      "lenders": {
+        "Root": 12,
+        "Root.Resi": 12,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 12,
+        "Root.Test.HighStreet": 12,
+        "Root.Test.BuildingSociety": 12,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SalaryPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "CarAllowancePercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualCashBonusPercent",
+      "lenders": {
+        "Root": 0.8,
+        "Root.Resi": 0.8,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.8,
+        "Root.Test.HighStreet": 0.8,
+        "Root.Test.BuildingSociety": 0.8,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusLatestYear",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonus2YearAverage",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusLastest25",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusLastest50",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusBetterRules",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusOneYearSolo",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusOneYearAvgSplit",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualBonusCanExceedBasic",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionPercent",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionAvg3Months",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionAvg6Months",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionLatestUsedInIsolation",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionLowestOf3",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionLowestOf6",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionAvgBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionLowestBetterOf",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionMaxZerosAccepted",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionBasicOverAnnualised",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimePercent",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeAvg3Months",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeAvg6Months",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeLatestUsedInIsolation",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeLowestOf3",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeLowestOf6",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeAvgBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeLowestBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeMaxZerosAccepted",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeBasicOverAnnualised",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusPercent",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusAvg3Months",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusAvg6Months",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusLatestUsedInIsolation",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusLowestOf3",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusLowestOf6",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusAvgBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusLowestBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusMaxZerosAccepted",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusBasicOverAnnualised",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowancePercent",
+      "lenders": {
+        "Root": 0.75,
+        "Root.Resi": 0.75,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0.75,
+        "Root.Test.HighStreet": 0.75,
+        "Root.Test.BuildingSociety": 0.75,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceAvg3Months",
+      "lenders": {
+        "Root": 3,
+        "Root.Resi": 3,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 3,
+        "Root.Test.HighStreet": 3,
+        "Root.Test.BuildingSociety": 3,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceAvg6Months",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceLatestUsedInIsolation",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceLowestOf3",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceLowestOf6",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceAvgBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceLowestBetterOf",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceMaxZerosAccepted",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceBasicOverAnnualised",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpDirectorsSalaryPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpPartnershipProfitPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpDividendsPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpNetProfitLtdPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpSoleTraderNetProfitPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpUseOneYearPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpMinMonthsRequired",
+      "lenders": {
+        "Root": 12,
+        "Root.Resi": 12,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 12,
+        "Root.Test.HighStreet": 12,
+        "Root.Test.BuildingSociety": 12,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpLatestYear25",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmployedFigures2YearAverage",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmployedFigures3YearAverage",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpOneYearOnlyOK",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpLatestYearOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpLimitedDividendsSalaryCombined",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpLimitedNetProfitOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmpLimitedNetProfitSalaryCombined",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "BetterofSelfEmployedLimitedCalculations",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "BetterofSelfEmployedHistory",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsEmployed",
+      "lenders": {
+        "Root": 3,
+        "Root.Resi": 3,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 3,
+        "Root.Test.HighStreet": 3,
+        "Root.Test.BuildingSociety": 3,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SustainableAllowancesPercent",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 1,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 1,
+        "Root.Test.HighStreet": 1,
+        "Root.Test.BuildingSociety": 1,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "EmployedFamilyBusinessAllowed",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinMonthsEmployedFamilyBusiness",
+      "lenders": {
+        "Root": 3,
+        "Root.Resi": 3,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 3,
+        "Root.Test.HighStreet": 3,
+        "Root.Test.BuildingSociety": 3,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalPensionPercent",
+      "lenders": {
+        "Root": 0,
+        "Root.Resi": 0,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0,
+        "Root.Test.HighStreet": 0,
+        "Root.Test.BuildingSociety": 0,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalPensionSplitTerm",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PensionBetterOfTermSplitOrPercent",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalDiscretionaryPortfolioPercent",
+      "lenders": {
+        "Root": 0,
+        "Root.Resi": 0,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 0,
+        "Root.Test.HighStreet": 0,
+        "Root.Test.BuildingSociety": 0,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalDiscretionaryPortfolioSplitTerm",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PortfolioBetterOfTermSplitOrPercent",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "StatePension",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AgeForStatePension",
+      "lenders": {
+        "Root": 63,
+        "Root.Resi": 63,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 63,
+        "Root.Test.HighStreet": 63,
+        "Root.Test.BuildingSociety": 63,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PrivatePension",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AgeForPrivatePension",
+      "lenders": {
+        "Root": 55,
+        "Root.Resi": 55,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 55,
+        "Root.Test.HighStreet": 55,
+        "Root.Test.BuildingSociety": 55,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RentalIncomeGross",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RentalIncomePostTax",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmployedIncomeUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SalaryUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "FixedTermContractorUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DayRateContractorUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SustainableAllowanceUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "CarAllowanceUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualCashBonusUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalIncomePensionUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalIncomePortfolioUsedIncomeLTI",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SelfEmployedIncomeUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SalaryUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "FixedTermContractorUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "DayRateContractorUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "SustainableAllowanceUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "CarAllowanceUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AnnualCashBonusUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyBonusUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyOvertimeUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCommissionUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MonthlyCabinCrewAllowanceUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalIncomePensionUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "NotionalIncomePortfolioUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "PrivatePensionUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "StatePensionUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "RentalIncomeUsedIncomeInterestOnly",
+      "lenders": {
+        "Root": true,
+        "Root.Resi": true,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": true,
+        "Root.Test.HighStreet": true,
+        "Root.Test.BuildingSociety": true,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinRequiredIncomeHouseholdInterestOnly",
+      "lenders": {
+        "Root": 75000,
+        "Root.Resi": 75000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 75000,
+        "Root.Test.HighStreet": 75000,
+        "Root.Test.BuildingSociety": 75000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MinRequiredIncomeApplicantInterestOnly",
+      "lenders": {
+        "Root": 75000,
+        "Root.Resi": 75000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 75000,
+        "Root.Test.HighStreet": 75000,
+        "Root.Test.BuildingSociety": 75000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxEarnedIncomeApplicantIncludeChildBenefits",
+      "lenders": {
+        "Root": 50000,
+        "Root.Resi": 50000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 50000,
+        "Root.Test.HighStreet": 50000,
+        "Root.Test.BuildingSociety": 50000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxEarnedIncomeApplicantIncludeChildTaxCredit",
+      "lenders": {
+        "Root": 55000,
+        "Root.Resi": 55000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 55000,
+        "Root.Test.HighStreet": 55000,
+        "Root.Test.BuildingSociety": 55000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxEarnedIncomeApplicantIncludeALLBenefits",
+      "lenders": {
+        "Root": 65000,
+        "Root.Resi": 65000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 65000,
+        "Root.Test.HighStreet": 65000,
+        "Root.Test.BuildingSociety": 65000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxEarnedIncomeHouseholdIncludeChildBenefits",
+      "lenders": {
+        "Root": 50000,
+        "Root.Resi": 50000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 50000,
+        "Root.Test.HighStreet": 50000,
+        "Root.Test.BuildingSociety": 50000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "MaxEarnedIncomeHouseholdIncludeChildTaxCredit",
+      "lenders": {
+        "Root": 100000,
+        "Root.Resi": 100000,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": 100000,
+        "Root.Test.HighStreet": 100000,
+        "Root.Test.BuildingSociety": 100000,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AcceptBenefitsNoEarnedIncome",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    },
+    {
+      "key": "AcceptRentalNoEarnedIncome",
+      "lenders": {
+        "Root": false,
+        "Root.Resi": false,
+        "Root.Resi.Accord": null,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null,
+        "Root.Test.PrivateBank": false,
+        "Root.Test.HighStreet": false,
+        "Root.Test.BuildingSociety": false,
+        "Root.Resi.Nationwide": null,
+        "Root.Resi.Santander": null
+      }
+    }
+  ],
+  "lenders": [
+    "Root",
+    "Root.Resi",
+    "Root.Test.PrivateBank",
+    "Root.Test.HighStreet",
+    "Root.Test.BuildingSociety",
+    "Root.Resi.Accord",
+    "Root.Resi.Barclays",
+    "Root.Resi.HSBCBank",
+    "Root.Resi.Nationwide",
+    "Root.Resi.Santander"
+  ],
+  "test_lenders": [
+    "Root.Test.PrivateBank",
+    "Root.Test.HighStreet",
+    "Root.Test.BuildingSociety"
+  ]
+}
