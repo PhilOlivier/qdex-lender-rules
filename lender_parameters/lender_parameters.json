@@ -5329,7 +5329,7 @@
     "Root.Test.PrivateBank",
     "Root.Test.HighStreet",
     "Root.Test.BuildingSociety"
-  ]
+  ],
   "parameter_types": {
     "BankName": "string",
     "CompNo": "string",
