@@ -11,6 +11,14 @@
       "metadata": {
         "description": "Credit issue count - updated"
       }
+    },
+    {
+      "key": "SomeValue",
+      "expression": "=testCalculation",
+      "order": 2,
+      "metadata": {
+        "description": "This is just a test"
+      }
     }
   ]
 }
