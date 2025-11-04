@@ -1,0 +1,16 @@
+{
+  "id": "max-number-of-credit-issues",
+  "title": "Max number of credit issues",
+  "description": "Testing merge workflow - draft save 2",
+  "category": "credit",
+  "rules": [
+    {
+      "key": "Applicant[].CreditIssue.CCJAggregated.Count",
+      "expression": "=count(Applicant[].CreditIssue.CCJ[].Amount)",
+      "order": 1,
+      "metadata": {
+        "description": "Credit issue count - updated"
+      }
+    }
+  ]
+}
