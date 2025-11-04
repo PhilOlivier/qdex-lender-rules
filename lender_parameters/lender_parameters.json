@@ -3,7 +3,7 @@
     {
       "key": "AboveCommercialFoodPremises",
       "lenders": {
-        "Root": "true",
+        "Root": true,
         "Root.Resi": false,
         "Root.Resi.Accord": false,
         "Root.Resi.AldermoreBank": false,
@@ -270,7 +270,7 @@
     {
       "key": "AboveCommercialOffices",
       "lenders": {
-        "Root": true,
+        "Root": false,
         "Root.Resi": true,
         "Root.Resi.Accord": true,
         "Root.Resi.AldermoreBank": true,
@@ -626,8 +626,8 @@
     {
       "key": "AcceptRentalNoEarnedIncome",
       "lenders": {
-        "Root": false,
-        "Root.Resi": false,
+        "Root": true,
+        "Root.Resi": true,
         "Root.Resi.Accord": false,
         "Root.Resi.AldermoreBank": false,
         "Root.Resi.AprilMortgages": false,
@@ -805,9 +805,9 @@
       "key": "AgeForStatePension",
       "lenders": {
         "Root": 63,
-        "Root.Resi": "63",
+        "Root.Resi": 63,
         "Root.Resi.Accord": 63,
-        "Root.Resi.AldermoreBank": 63,
+        "Root.Resi.AldermoreBank": 62,
         "Root.Resi.AprilMortgages": 63,
         "Root.Resi.ArbuthnotLatham": 63,
         "Root.Resi.AtomBank": 63,
@@ -5523,7 +5523,7 @@
       "lenders": {
         "Root": 12,
         "Root.Resi": 12,
-        "Root.Resi.Accord": "12",
+        "Root.Resi.Accord": 12,
         "Root.Resi.AldermoreBank": 12,
         "Root.Resi.AprilMortgages": 12,
         "Root.Resi.ArbuthnotLatham": 0,
@@ -8458,7 +8458,7 @@
     {
       "key": "LTV.MaxExpat",
       "lenders": {
-        "Root": "0.75",
+        "Root": 0.75,
         "Root.Resi": null,
         "Root.Resi.Accord": null,
         "Root.Resi.AldermoreBank": null,
@@ -10238,7 +10238,7 @@
     {
       "key": "MaxAge.Application.SportsActive",
       "lenders": {
-        "Root": "34",
+        "Root": 34,
         "Root.Resi": 34,
         "Root.Resi.Accord": 34,
         "Root.Resi.AldermoreBank": 34,
@@ -16379,7 +16379,7 @@
     {
       "key": "MonthlyBonusAvg3Months",
       "lenders": {
-        "Root": "false",
+        "Root": false,
         "Root.Resi": true,
         "Root.Resi.Accord": true,
         "Root.Resi.AldermoreBank": true,
