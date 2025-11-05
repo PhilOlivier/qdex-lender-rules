@@ -1,0 +1,7 @@
+{
+  "id": "test-decision",
+  "title": "Duplicate Decision",
+  "description": "This should fail",
+  "category": "test",
+  "rules": []
+}
