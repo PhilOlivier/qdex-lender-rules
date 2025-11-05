@@ -3,7 +3,7 @@
     {
       "key": "AboveCommercialFoodPremises",
       "lenders": {
-        "Root": true,
+        "Root": false,
         "Root.Resi": false,
         "Root.Resi.Accord": false,
         "Root.Resi.AldermoreBank": false,
