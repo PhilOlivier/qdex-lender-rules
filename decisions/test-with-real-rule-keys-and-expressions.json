@@ -1,0 +1,51 @@
+{
+  "id": "test-with-real-rule-keys-and-expressions",
+  "title": "Test with real rule keys and expressions",
+  "description": "",
+  "category": "",
+  "rules": [
+    {
+      "key": "Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfitLatest",
+      "expression": "=Applicant[].EarnedIncome[].SoleTraderNetProfitAllowableLatest",
+      "order": 1,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfit2YearAverage",
+      "expression": "=Applicant[].EarnedIncome[].SoleTraderNetProfit2YearAverage if SelfEmployedFigures2YearAverage else 0",
+      "order": 2,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfit3YearAverage",
+      "expression": "=Applicant[].EarnedIncome[].SoleTraderNetProfit3YearAverage if SelfEmployedFigures3YearAverage else 0",
+      "order": 3,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "Applicant[].EarnedIncome[].LenderCalculatedMaxSoleTraderNetProfit",
+      "expression": "=max(Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfitLatest, Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfit2YearAverage, Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfit3YearAverage)",
+      "order": 4,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "Applicant[].EarnedIncome[].BetterOfHistorySoleTraderNetProfitOneYear",
+      "expression": "=Applicant[].EarnedIncome[].MaxBetterOfSelfEmployedSoleTraderCalcsOneYear if BetterofSelfEmployedHistory and Applicant[].EarnedIncome[].IsSoleTrader and Applicant[].EarnedIncome[].IsOneYearOnlySoleTraderNetProfit else 0 if not Applicant[].EarnedIncome[].IsOneYearOnlySoleTraderNetProfit else Applicant[].EarnedIncome[].MinBetterOfSelfEmployedSoleTraderCalcsOneYear",
+      "order": 5,
+      "metadata": {
+        "description": ""
+      }
+    }
+  ],
+  "status": "published",
+  "has_draft": false,
+  "branch_name": null
+}
