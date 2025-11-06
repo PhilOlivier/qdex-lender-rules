@@ -357,7 +357,7 @@
         "Root.Resi.VirginMoney": true,
         "Root.Resi.Weatherbys": true,
         "Root.Resi.WestBromwichBuildingSociety": true,
-        "Root.Test.HighStreet": null
+        "Root.Test.HighStreet": true
       }
     },
     {
