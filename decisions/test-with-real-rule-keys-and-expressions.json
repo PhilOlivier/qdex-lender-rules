@@ -30,8 +30,24 @@
     },
     {
       "key": "Applicant[].EarnedIncome[].SomeZerosPartnershipNetProfit",
-      "expression": "=(Applicant[].EarnedIncome[].NetProfit[2]) ==0",
+      "expression": "123123123",
       "order": 4,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "qwerqwerqwer",
+      "expression": "asdfasdfasdf",
+      "order": 5,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "Newrule",
+      "expression": "=something",
+      "order": 6,
       "metadata": {
         "description": ""
       }
