@@ -46,8 +46,16 @@
     },
     {
       "key": "Newrule",
-      "expression": "=something",
+      "expression": "=something + something \n    + something\n    + another thing",
       "order": 6,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "AnotherKey",
+      "expression": "=max(Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfitLatest, Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfit2YearAverage, Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfit3YearAverage)",
+      "order": 7,
       "metadata": {
         "description": ""
       }
