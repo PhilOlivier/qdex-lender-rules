@@ -2,7 +2,7 @@
   "id": "test-with-real-rule-keys-and-expressions",
   "title": "Test with real rule keys and expressions",
   "description": "",
-  "category": "",
+  "category": "asdf",
   "rules": [
     {
       "key": "Applicant[].EarnedIncome[].LenderCalculatedSoleTraderNetProfitLatest",
