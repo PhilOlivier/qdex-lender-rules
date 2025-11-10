@@ -6,7 +6,7 @@
   "rules": [
     {
       "key": "qwer",
-      "expression": "AboveCommercialFoodPremises + count(AboveCommercialFoodPremises)",
+      "expression": "=count(arrayApplicant[].Assets[].Currency) + all(array) ",
       "order": 1,
       "metadata": {
         "description": ""
