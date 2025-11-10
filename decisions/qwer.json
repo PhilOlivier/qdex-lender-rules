@@ -6,7 +6,7 @@
   "rules": [
     {
       "key": "qwer",
-      "expression": "",
+      "expression": "AboveCommercialFoodPremises + count(AboveCommercialFoodPremises)",
       "order": 1,
       "metadata": {
         "description": ""
@@ -24,14 +24,6 @@
       "key": "1asdf",
       "expression": "",
       "order": 3,
-      "metadata": {
-        "description": ""
-      }
-    },
-    {
-      "key": "qwer23",
-      "expression": "",
-      "order": 4,
       "metadata": {
         "description": ""
       }
