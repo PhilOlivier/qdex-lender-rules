@@ -1,0 +1,35 @@
+{
+  "id": "qwer",
+  "title": "qwer",
+  "description": "",
+  "category": "",
+  "rules": [
+    {
+      "key": "qwer",
+      "expression": "=count(arrayApplicant[].Assets[].Currency) + all(array) ",
+      "order": 1,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "qwer1",
+      "expression": "",
+      "order": 2,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "1asdf",
+      "expression": "",
+      "order": 3,
+      "metadata": {
+        "description": ""
+      }
+    }
+  ],
+  "status": "published",
+  "has_draft": false,
+  "branch_name": null
+}
