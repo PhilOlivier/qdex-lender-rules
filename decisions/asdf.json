@@ -3,7 +3,16 @@
   "title": "asdf",
   "description": "",
   "category": "",
-  "rules": [],
+  "rules": [
+    {
+      "key": "aasdf",
+      "expression": "aaaasdf",
+      "order": 1,
+      "metadata": {
+        "description": ""
+      }
+    }
+  ],
   "status": "published",
   "has_draft": false,
   "branch_name": null
