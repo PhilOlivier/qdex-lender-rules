@@ -3,29 +3,48 @@
     {
       "key": "Parameter1",
       "lenders": {
+        "Roor.Resi.Santander": null,
         "Root.Resi.Barclays": null
       }
     },
     {
       "key": "Parameter2",
       "lenders": {
+        "Roor.Resi.Santander": null,
         "Root.Resi.Barclays": null
       }
     },
     {
       "key": "Parameter3",
       "lenders": {
+        "Roor.Resi.Santander": null,
         "Root.Resi.Barclays": null
       }
     },
     {
       "key": "Parameter4",
       "lenders": {
+        "Roor.Resi.Santander": null,
+        "Root.Resi.Barclays": null
+      }
+    },
+    {
+      "key": "Parameter4Bool",
+      "lenders": {
+        "Roor.Resi.Santander": null,
         "Root.Resi.Barclays": true
+      }
+    },
+    {
+      "key": "ParameterNumber",
+      "lenders": {
+        "Roor.Resi.Santander": null,
+        "Root.Resi.Barclays": null
       }
     }
   ],
   "lenders": [
+    "Roor.Resi.Santander",
     "Root.Resi.Barclays"
   ],
   "test_lenders": [
@@ -35,6 +54,8 @@
     "Parameter1": "number",
     "Parameter2": "string",
     "Parameter3": "boolean",
-    "Parameter4": "boolean"
+    "Parameter4": "boolean",
+    "Parameter4Bool": "string",
+    "ParameterNumber": "number"
   }
 }
