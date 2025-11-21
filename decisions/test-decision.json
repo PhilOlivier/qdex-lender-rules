@@ -1,0 +1,27 @@
+{
+  "id": "test-decision",
+  "title": "Test decision",
+  "description": "",
+  "category": "",
+  "rules": [
+    {
+      "key": "TestRule1",
+      "expression": "Applicant[].Assets[].IncomeAmount * Applicant[].Assets[].IncomeFrequency",
+      "order": 1,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "TestRule2",
+      "expression": "TestRule1 * Applicant[].Assets[].IncomeAmount",
+      "order": 2,
+      "metadata": {
+        "description": ""
+      }
+    }
+  ],
+  "status": "published",
+  "has_draft": false,
+  "branch_name": null
+}
