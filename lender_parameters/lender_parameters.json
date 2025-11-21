@@ -3,42 +3,42 @@
     {
       "key": "Parameter1",
       "lenders": {
-        "Roor.Resi.Santander": null,
+        "Roor.Resi.Santander": 5000,
         "Root.Resi.Barclays": 2000
       }
     },
     {
       "key": "Parameter2",
       "lenders": {
-        "Roor.Resi.Santander": null,
+        "Roor.Resi.Santander": "Benefits",
         "Root.Resi.Barclays": "Benefits"
       }
     },
     {
       "key": "Parameter3",
       "lenders": {
-        "Roor.Resi.Santander": null,
+        "Roor.Resi.Santander": false,
         "Root.Resi.Barclays": false
       }
     },
     {
       "key": "Parameter4",
       "lenders": {
-        "Roor.Resi.Santander": null,
+        "Roor.Resi.Santander": true,
         "Root.Resi.Barclays": false
       }
     },
     {
       "key": "Parameter4Bool",
       "lenders": {
-        "Roor.Resi.Santander": null,
+        "Roor.Resi.Santander": "true",
         "Root.Resi.Barclays": "Pension"
       }
     },
     {
       "key": "ParameterNumber",
       "lenders": {
-        "Roor.Resi.Santander": null,
+        "Roor.Resi.Santander": 13,
         "Root.Resi.Barclays": 12
       }
     }
