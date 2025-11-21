@@ -39,7 +39,7 @@
       "key": "ParameterNumber",
       "lenders": {
         "Roor.Resi.Santander": null,
-        "Root.Resi.Barclays": null
+        "Root.Resi.Barclays": 12
       }
     }
   ],
