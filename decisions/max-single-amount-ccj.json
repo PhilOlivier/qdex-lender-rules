@@ -14,7 +14,7 @@
     },
     {
       "key": "Applicant[].CanLend.MaxSingleAmountCCJ",
-      "expression": "=(count(Applicant[].CreditIssue.CCJ[].Amount)==0 or (Applicant[].CreditIssue.CCJAggregated.MaxSingleAmount<=MaxSingleAmount.CCJ)",
+      "expression": "=count(Applicant[].CreditIssue.CCJ[].Amount)==0 or (Applicant[].CreditIssue.CCJAggregated.MaxSingleAmount <= MaxSingleAmount.CCJ)",
       "order": 2,
       "metadata": {
         "description": ""
