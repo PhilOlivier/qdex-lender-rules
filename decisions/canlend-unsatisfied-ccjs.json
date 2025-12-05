@@ -6,7 +6,7 @@
   "rules": [
     {
       "key": "Applicant[].CreditIssue.CCJAggregated.Unsatisfiedcount",
-      "expression": "=count(Applicant[].CreditIssue.CCJ[].Amount - CountIfNotEmpty(Applicant[].CreditIssue.CCJ[].DateSatisfied)",
+      "expression": "=count(Applicant[].CreditIssue.CCJ[].Amount) - CountIfNotEmpty(Applicant[].CreditIssue.CCJ[].DateSatisfied)",
       "order": 1,
       "metadata": {
         "description": ""
