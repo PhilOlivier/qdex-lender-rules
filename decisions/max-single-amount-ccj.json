@@ -1,0 +1,27 @@
+{
+  "id": "max-single-amount-ccj",
+  "title": "Max Single Amount CCJ",
+  "description": "",
+  "category": "",
+  "rules": [
+    {
+      "key": "Applicant[].CreditIssue.CCJAggregated.MaxSingleAmount",
+      "expression": "=max(Applicant[].CreditIssue.CCJ[].Amount)",
+      "order": 1,
+      "metadata": {
+        "description": ""
+      }
+    },
+    {
+      "key": "Applicant[].CanLend.MaxSingleAmountCCJ",
+      "expression": "=(count(Applicant[].CreditIssue.CCJ[].Amount)==0 or (Applicant[].CreditIssue.CCJAggregated.MaxSingleAmount<=MaxSingleAmount.CCJ)",
+      "order": 2,
+      "metadata": {
+        "description": ""
+      }
+    }
+  ],
+  "status": "published",
+  "has_draft": false,
+  "branch_name": null
+}
