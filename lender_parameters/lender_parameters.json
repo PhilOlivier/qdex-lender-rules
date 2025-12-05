@@ -11,6 +11,26 @@
       }
     },
     {
+      "key": "BankName",
+      "lenders": {
+        "Root": "Root",
+        "Root.Resi": "Root Resi",
+        "Root.Resi.Accord": "Accord",
+        "Root.Resi.Barclays": "Barclays",
+        "Root.Resi.HSBCBank": "HSBC Bank"
+      }
+    },
+    {
+      "key": "CompNo",
+      "lenders": {
+        "Root": 1,
+        "Root.Resi": 2,
+        "Root.Resi.Accord": 3805,
+        "Root.Resi.Barclays": 30750,
+        "Root.Resi.HSBCBank": 15350
+      }
+    },
+    {
       "key": "MaxSingleAmount.CCJ",
       "lenders": {
         "Root": 300,
@@ -37,6 +57,8 @@
   ],
   "parameter_types": {
     "AllowsUnsatisfied.CCJ": "boolean",
+    "BankName": "string",
+    "CompNo": "number",
     "MaxSingleAmount.CCJ": "number"
   }
 }
