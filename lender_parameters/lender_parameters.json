@@ -1,61 +1,42 @@
 {
   "parameters": [
     {
-      "key": "Parameter1",
+      "key": "AllowsUnsatisfied.CCJ",
       "lenders": {
-        "Roor.Resi.Santander": 5000,
-        "Root.Resi.Barclays": 2000
+        "Root": false,
+        "Root.Resi": null,
+        "Root.Resi.Accord": true,
+        "Root.Resi.Barclays": null,
+        "Root.Resi.HSBCBank": null
       }
     },
     {
-      "key": "Parameter2",
+      "key": "MaxSingleAmount.CCJ",
       "lenders": {
-        "Roor.Resi.Santander": "Benefits",
-        "Root.Resi.Barclays": "Benefits"
-      }
-    },
-    {
-      "key": "Parameter3",
-      "lenders": {
-        "Roor.Resi.Santander": false,
-        "Root.Resi.Barclays": false
-      }
-    },
-    {
-      "key": "Parameter4",
-      "lenders": {
-        "Roor.Resi.Santander": true,
-        "Root.Resi.Barclays": false
-      }
-    },
-    {
-      "key": "Parameter4Bool",
-      "lenders": {
-        "Roor.Resi.Santander": "true",
-        "Root.Resi.Barclays": "Pension"
-      }
-    },
-    {
-      "key": "ParameterNumber",
-      "lenders": {
-        "Roor.Resi.Santander": 13,
-        "Root.Resi.Barclays": 12
+        "Root": 300,
+        "Root.Resi": 350,
+        "Root.Resi.Accord": 100,
+        "Root.Resi.Barclays": 150,
+        "Root.Resi.HSBCBank": null
       }
     }
   ],
   "lenders": [
-    "Roor.Resi.Santander",
-    "Root.Resi.Barclays"
+    "Root",
+    "Root.Resi",
+    "Root.Resi.Accord",
+    "Root.Resi.Barclays",
+    "Root.Resi.HSBCBank"
   ],
   "test_lenders": [
-    "Root.Resi.Barclays"
+    "Root",
+    "Root.Resi",
+    "Root.Resi.Accord",
+    "Root.Resi.Barclays",
+    "Root.Resi.HSBCBank"
   ],
   "parameter_types": {
-    "Parameter1": "number",
-    "Parameter2": "string",
-    "Parameter3": "boolean",
-    "Parameter4": "boolean",
-    "Parameter4Bool": "string",
-    "ParameterNumber": "number"
+    "AllowsUnsatisfied.CCJ": "boolean",
+    "MaxSingleAmount.CCJ": "number"
   }
 }
