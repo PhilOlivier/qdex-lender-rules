@@ -15,9 +15,9 @@
       "lenders": {
         "Root": "Root",
         "Root.Resi": "Root Resi",
-        "Root.Resi.Accord": "Accord",
-        "Root.Resi.Barclays": "Barclays",
-        "Root.Resi.HSBCBank": "HSBC Bank"
+        "Root.Resi.Accord": "Accord TEST",
+        "Root.Resi.Barclays": "Barclays TEST",
+        "Root.Resi.HSBCBank": "HSBC Bank TEST"
       }
     },
     {
@@ -49,11 +49,13 @@
     "Root.Resi.HSBCBank"
   ],
   "test_lenders": [
-    "Root",
-    "Root.Resi",
     "Root.Resi.Accord",
     "Root.Resi.Barclays",
     "Root.Resi.HSBCBank"
+  ],
+  "system_lenders": [
+    "Root",
+    "Root.Resi"
   ],
   "parameter_types": {
     "AllowsUnsatisfied.CCJ": "boolean",
